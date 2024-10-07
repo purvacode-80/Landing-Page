@@ -260,6 +260,45 @@ header {
     color: #f8e1a2; /* Highlighting key terms */
 }
 
+.attract {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background: linear-gradient(to right, #f5f7fa, #d5e0f1);  */
+    text-align: center;
+    display: flex;
+}
+
+.attract-box {
+    background-color: #000; /* Black background for each cloud box */
+    border: 2px solid #fff;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    /* width: 35%; */
+    color: white;
+    /* box-shadow: 0px 4px 8px #00e6e6; */
+}
+
+.last-section h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: Cambria;
+    color: #f8d08a; /* Font color for heading */
+}
+
+.attract-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #c78af9; /* Font color for heading */
+}
+
+.attract-box p {
+    font-size: 1.5em;
+    color: #ddd; /* Font color for paragraph */
+    font-family: 'Trebuchet MS';
+}
+
 /* Review Images Section */
 .review-images-section {
     padding: 50px;
