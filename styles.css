@@ -1,31 +1,35 @@
-/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html
+{
+    background: black;
+    color : white;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     margin-bottom: 20px;
     padding: 0;
-    /* background: linear-gradient(to right, #e0eafc, #cfdef3);  */
-    color: #333;
 }
 
 header {
     text-align: center;
     padding: 1em;
-    background: linear-gradient(to right, #000428, #004e92); /* Gradient background for header */
+    background: linear-gradient(to right, #1f2ca4, #256dac); /* Gradient background for header */
     color: white;
 }
 
 .testimonial-section {
     padding: 50px;
     text-align: center;
-    background: linear-gradient(to right, #fff, #f8f9fa); /* Gradient for testimonial section */
-    color: #333;
+    /* background: linear-gradient(to right, #fff, #f8f9fa); Gradient for testimonial section */
 }
 
 .testimonial-section h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #333;
+    /* color: #333; */
 }
 /* Styles for the new info-section */
 .info-section {
@@ -62,15 +66,31 @@ header {
 .info-text h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #004e92;
+    color: #66b7fe;
 }
 
 .info-text p {
     font-size: 1.2em;
     margin-bottom: 20px;
-    color: #333;
     font-family: Georgia;
     font-weight: 600;
+}
+
+.info-head {
+    box-shadow: 5px 5px 15px ivory;
+    padding: 6px;
+    font-size: .8em;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#few-seats {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgba(253, 105, 105, 0.958);
 }
 
 .info-text .btn {
@@ -109,7 +129,7 @@ header {
 
 .message-box {
     padding: 20px;
-    background: linear-gradient(to right, #ff9966, #ff5e62); /* Gradient background for message boxes */
+    background: linear-gradient(to right, #ff9966, #fa5555); /* Gradient background for message boxes */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     width: 300px;
@@ -184,7 +204,7 @@ header {
 .cloud-info-section {
     padding-top: 20px;
     padding-bottom: 20px;
-    background: linear-gradient(to right, #f5f7fa, #d5e0f1); 
+    /* background: linear-gradient(to right, #f5f7fa, #d5e0f1);  */
     text-align: center;
 }
 
@@ -192,7 +212,7 @@ header {
     font-size: 2.5em;
     margin-bottom: 30px;
     font-family: 'Franklin Gothic Medium';
-    color: #420786;
+    color: #7cbff5;
 }
 
 .cloud-info {
@@ -243,7 +263,7 @@ header {
 /* Review Images Section */
 .review-images-section {
     padding: 50px;
-    background: linear-gradient(to right, #f0f0f0, #ffffff); /* Gradient for review section */
+    /* background: linear-gradient(to right, #f0f0f0, #ffffff); Gradient for review section */
     text-align: center;
 }
 
@@ -251,7 +271,6 @@ header {
     font-size: 2.5em;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
-    color: #333;
 }
 
 .review-images {
