@@ -393,4 +393,7 @@ body {
         display: block;
         /* gap: 0px; */
     }
+    .info-head {
+        font-size : .6em;
+    }
 }
